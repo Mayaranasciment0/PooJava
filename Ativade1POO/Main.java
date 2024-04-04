@@ -1,4 +1,4 @@
-//Aluns: Mayara Wyrla
+//Aluna: Mayara Wyrla
 import java.util.Scanner;
 import java.util.ArrayList;
 
