@@ -1,3 +1,4 @@
+//Aluna: Mayara Wyrla
 import java.util.ArrayList;
 
 public class Animal {
