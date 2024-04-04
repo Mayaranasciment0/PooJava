@@ -24,7 +24,7 @@ public class Zoologico {
     }
 
     public void buscarPorEspecie(String especie) {
-        boolean encontrado = false; // Correção: declaração da variável boolean
+        boolean encontrado = false;
         for (Animal animal : animais) {
             if (animal.getEspecie().equalsIgnoreCase(especie)) {
                 System.out.println("Nome: " + animal.getNome());
