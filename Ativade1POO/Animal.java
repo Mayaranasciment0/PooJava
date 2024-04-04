@@ -1,13 +1,11 @@
 import java.util.ArrayList;
 
 public class Animal {
-    // atributos privados da classe animal
     private String nome;
     private String especie;
     private int idade;
     private ArrayList<String> alimentos = new ArrayList<>();
 
-    // construtores
     public Animal(String nome, String especie, int idade) {
         this.nome = nome;
         this.especie = especie;
@@ -19,7 +17,6 @@ public class Animal {
         this.alimentos.addAll(alimentos);
     }
 
-    // Métodos getters e setters
     public String getNome() {
         return nome;
     }
@@ -52,7 +49,6 @@ public class Animal {
         this.alimentos.add(alimento);
     }
 
-    // Método exibirInfo para retornar uma representação em string do animal
     public String exibirInfo() {
         return "Nome do animal: " + nome +
                 "\n Espécie: " + especie +
