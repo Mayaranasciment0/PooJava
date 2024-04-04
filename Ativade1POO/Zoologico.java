@@ -19,13 +19,12 @@ public class Zoologico {
                 System.out.println("Nome: " + animal.getNome());
                 System.out.println("Espécie: " + animal.getEspecie());
                 System.out.println("Idade: " + animal.getIdade());
-
             }
         }
     }
 
     public void buscarPorEspecie(String especie) {
-        boolean encontrado = false;
+        boolean encontrado = false; // Correção: declaração da variável boolean
         for (Animal animal : animais) {
             if (animal.getEspecie().equalsIgnoreCase(especie)) {
                 System.out.println("Nome: " + animal.getNome());

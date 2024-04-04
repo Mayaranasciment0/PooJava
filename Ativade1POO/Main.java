@@ -1,19 +1,22 @@
 import java.util.Scanner;
+import java.util.ArrayList;
 
 public class Main {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        ArrayList<String> alimentos = new ArrayList<>();
         Zoologico zoologico = new Zoologico();
+
         int opcao;
-        boolean continuar = true;
 
         do {
             System.out.println("Escolha uma das opções abaixo do nosso sistema: ");
             System.out.println("1 -> Cadastrar novo animal");
-            System.out.println("2 -> Listar todos os animais cadastrados");
+            System.out.println("2 -> Exibir todos os animais cadastrados");
             System.out.println("3 -> Buscar animais por espécie");
             System.out.println("4 -> Remover Animal");
+            System.out.println("5 -> Adicionar novos alimentos");
             System.out.println("0 -> Sair do sistema");
 
             opcao = input.nextInt();
@@ -48,15 +51,20 @@ public class Main {
                     String nomeRemover = input.nextLine();
                     zoologico.removerAnimal(nomeRemover);
                     break;
+                case 5:
+                    System.out.println("Digite o nome do alimento:");
+                    String novoAlimento = input.next();
+                    alimentos.add(novoAlimento);
+                    System.out.println("Alimento adicionado com sucesso!");
+                    break;
                 case 0:
-                    continuar = false;
                     System.out.println("Sistema encerrado.");
                     break;
                 default:
                     System.out.println("Opção inválida!");
                     break;
             }
-        } while (continuar);
+        } while (opcao != 0);
 
         input.close();
     }
