@@ -1,19 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/dIwD3pFg)
-# Lista de Exercícios
-<img src="assets/images/Unicap_Icam_Tech-01.png" alt="drawing" width="200"/>
-
-## Identificação
-**Professor**: MSc. Iago Rodrigues
-
-**Disciplina**: Programação Orientada a Objetos
-
-**Atividade**: Atividade Extra 01 - Herança e Polimorfismo
-
-## Instruções 
-> 1. Sua implementação deve estar dentro da pasta src/**main**/java 
-> 2. Não modifique nenhum código dentro da pasta src/**test**/java).
-> 3. A submissão **não deve ser feita após o prazo** (nem 1 minuto a mais)
-
 ## Descrição da Atividade
 
 > Desenvolver um sistema simples de gerenciamento de zoológico, onde existem diferentes tipos de animais, cada um com suas características e habilidades específicas. O sistema deve ser capaz de adicionar, listar e remover animais do zoológico.
